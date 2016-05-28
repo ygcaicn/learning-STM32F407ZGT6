@@ -47,7 +47,7 @@
             <InvalidFlash>1</InvalidFlash>
           </TargetStatus>
           <OutputDirectory>.\Objects\</OutputDirectory>
-          <OutputName>usart</OutputName>
+          <OutputName>work</OutputName>
           <CreateExecutable>1</CreateExecutable>
           <CreateLib>0</CreateLib>
           <CreateHexFile>1</CreateHexFile>
@@ -365,7 +365,7 @@
               <MiscControls></MiscControls>
               <Define>STM32F40_41xxx,USE_STDPERIPH_DRIVER</Define>
               <Undefine></Undefine>
-              <IncludePath>..\User\Inc;..\System\delay;..\System\sys;..\System\usart;..\Hardware\Led;..\Hardware\Beep;..\Hardware\Key;..\Core;..\Libraries\inc</IncludePath>
+              <IncludePath>..\User\Inc;..\System\delay;..\System\sys;..\System\usart;..\Hardware\Led;..\Hardware\Beep;..\Hardware\Key;..\Core;..\Libraries\inc;..\Hardware\PWM</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -438,6 +438,11 @@
               <FileType>1</FileType>
               <FilePath>..\Hardware\Key\key.c</FilePath>
             </File>
+            <File>
+              <FileName>pwm.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Hardware\PWM\pwm.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -482,6 +487,11 @@
               <FileName>stm32f4xx_usart.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\Libraries\src\stm32f4xx_usart.c</FilePath>
+            </File>
+            <File>
+              <FileName>stm32f4xx_tim.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Libraries\src\stm32f4xx_tim.c</FilePath>
             </File>
           </Files>
         </Group>
