@@ -31,8 +31,8 @@
 # Debug files
 *.dSYM/
 
-/Project/Listings
-/Project/Objects
+/Project/Listings/*.*
+/Project/Objects/*.*
 
 *uvguix.p_nel
 *.uvoptx
