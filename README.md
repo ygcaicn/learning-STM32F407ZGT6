@@ -7,6 +7,8 @@
 application  with STM32F4xx_DSP_StdPeriph_Lib_V1.4.0.
 
  
+>##master branch  
+> basic application
 
 
 
@@ -31,3 +33,4 @@ application  with STM32F4xx_DSP_StdPeriph_Lib_V1.4.0.
 
 [myhome]:http://www.cumtpn.com
 [mygithome]:http://ygcaicn.github.io
+
